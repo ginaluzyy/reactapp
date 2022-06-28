@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-900 text-gray-100;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*CMS = Content Management System  - 
+ wordpress (adm e fronf end) back e front end
+
+ headless cms (GRAPHCMS) (apenas painel adm e dados fornecidos por API) / API  vai usar o CMS para trazer informaçoes do back */
